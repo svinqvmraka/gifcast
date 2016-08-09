@@ -1,6 +1,6 @@
 #!/bin/bash
-tmp_avi=$(mktemp /tmp/outXXXXXXXXXX.avi)
 date=$(date "+%Y-%m-%d-%H-%M-%S")
+tmp_avi=$(mktemp /tmp/gifcast_$date.avi)
 
 if ! which ffcast >/dev/null
 then
