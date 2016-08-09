@@ -13,4 +13,4 @@ A tiny script that records a region of your screen and outputs it to a .gif file
   - To stop, open the terminal window you started the script from and press `q`. 
   - The gif file should be in `~/Videos/gifcast_%DATE%.gif`.
   
-In case you need it, there is a temp .avi copy of the recording - `/tmp/gifcast_%DATE%.avi`
+In case you need it, there is a temp .avi copy of the recording - `/tmp/outXXXXXXXXXX.avi`
